@@ -1,0 +1,42 @@
+{
+    "policyId": "my.test:policy",
+    "attributes": {
+        "Id": "",
+        "Serial": "",
+        "Name": "",
+        "DeviceTypeId": "",
+        "UnitId": "",
+        "Interval": "",
+        "IsCommunicating": "",
+        "DataCollectionStatus": "",
+        "Index": "",
+        "Address": "",
+        "State": "",
+        "Reference": "",
+        "Deleted": "",
+        "Virtual": "",
+        "PhysicalAddress": "",
+        "PhysicalAddressType": "",
+        "HasTags": "",
+        "HasNotes": "",
+        "TariffId": "",
+        "ContractedOptionId": "",
+        "LocalId": "",
+        "DeviceTypeTypeCode": "",
+        "Domain": ""
+    },
+    "features": {
+        "Id": {
+            "properties": {
+                "value": 2337,
+                "unit": "Int"
+            }
+        },
+        "OMIESurplusPrice": {
+            "properties": {
+                "value": "",
+                "unit": "Euro"
+            }
+        }
+    }
+}

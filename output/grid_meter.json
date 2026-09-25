@@ -1,0 +1,66 @@
+{
+    "policyId": "my.test:policy",
+    "attributes": {
+        "Id": "",
+        "Serial": "",
+        "Name": "",
+        "DeviceTypeId": "",
+        "UnitId": "",
+        "Interval": "",
+        "IsCommunicating": "",
+        "DataCollectionStatus": "",
+        "Index": "",
+        "Address": "",
+        "State": "",
+        "Reference": "",
+        "Deleted": "",
+        "Virtual": "",
+        "PhysicalAddress": "",
+        "PhysicalAddressType": "",
+        "HasTags": "",
+        "HasNotes": "",
+        "TariffId": "",
+        "ContractedOptionId": "",
+        "LocalId": "",
+        "DeviceTypeTypeCode": "",
+        "Domain": ""
+    },
+    "features": {
+        "Id": {
+            "properties": {
+                "value": 7153,
+                "unit": "Int"
+            }
+        },
+        "Voltage": {
+            "properties": {
+                "value": "",
+                "unit": "V"
+            }
+        },
+        "Current": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "ActivePower": {
+            "properties": {
+                "value": "",
+                "unit": "W"
+            }
+        },
+        "TotalImportedActiveEnergy": {
+            "properties": {
+                "value": "",
+                "unit": "Wh"
+            }
+        },
+        "TotalExportedActiveEnergy": {
+            "properties": {
+                "value": "",
+                "unit": "Wh"
+            }
+        }
+    }
+}

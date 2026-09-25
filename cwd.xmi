@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_MVuUcLjbEfGtpPIX7v2jcA" name="cwd">
+  <eAnnotations xmi:id="_MVuUcbjbEfGtpPIX7v2jcA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_MVuUcrjbEfGtpPIX7v2jcA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuUc7jbEfGtpPIX7v2jcA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuUdLjbEfGtpPIX7v2jcA" name="Unit">
+    <ownedAttribute xmi:id="_MVuUdbjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWJLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUkbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUdrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUd7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV37jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUlLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUeLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUebjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUerjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUe7jbEfGtpPIX7v2jcA" name="StateId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUfLjbEfGtpPIX7v2jcA" name="MacAddress" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUfbjbEfGtpPIX7v2jcA" name="TimeZoneId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUfrjbEfGtpPIX7v2jcA" name="TimeZoneIANA" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUf7jbEfGtpPIX7v2jcA" name="HashedSerial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUgLjbEfGtpPIX7v2jcA" name="Interval" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUgbjbEfGtpPIX7v2jcA" name="LastComm" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUgrjbEfGtpPIX7v2jcA" name="TypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUg7jbEfGtpPIX7v2jcA" name="ProtocolId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUhLjbEfGtpPIX7v2jcA" name="Deleted" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUhbjbEfGtpPIX7v2jcA" name="IsActive" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUhrjbEfGtpPIX7v2jcA" name="IsConnected" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUh7jbEfGtpPIX7v2jcA" name="DataCollectionStatus" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUiLjbEfGtpPIX7v2jcA" name="Reference" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUibjbEfGtpPIX7v2jcA" name="CommThreshold" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUirjbEfGtpPIX7v2jcA" name="ProductionYear" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUi7jbEfGtpPIX7v2jcA" name="Serial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUjLjbEfGtpPIX7v2jcA" name="HasComments" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUjbjbEfGtpPIX7v2jcA" name="HasDevices" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUjrjbEfGtpPIX7v2jcA" name="LocalId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUj7jbEfGtpPIX7v2jcA" name="MonthlyObjective" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUkLjbEfGtpPIX7v2jcA" name="LastConfigDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuUkbjbEfGtpPIX7v2jcA" memberEnd="_MVuUdbjbEfGtpPIX7v2jcA _MVuUkrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuUkrjbEfGtpPIX7v2jcA" name="TimeZoneId" visibility="public" type="_MVuUdLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUkbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUk7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuUlLjbEfGtpPIX7v2jcA" memberEnd="_MVuUd7jbEfGtpPIX7v2jcA _MVuUlbjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuUlbjbEfGtpPIX7v2jcA" name="LocalId" visibility="public" type="_MVuUdLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUlLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUlrjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuUl7jbEfGtpPIX7v2jcA" name="Device">
+    <ownedAttribute xmi:id="_MVuUmLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUdLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUtbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUmbjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUmrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUvrjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUuLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUm7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUnLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV37jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUu7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUnbjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUnrjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUn7jbEfGtpPIX7v2jcA" name="Serial" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUoLjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUobjbEfGtpPIX7v2jcA" name="DeviceTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUorjbEfGtpPIX7v2jcA" name="UnitId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUo7jbEfGtpPIX7v2jcA" name="Interval" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUpLjbEfGtpPIX7v2jcA" name="IsCommunicating" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUpbjbEfGtpPIX7v2jcA" name="DataCollectionStatus" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUprjbEfGtpPIX7v2jcA" name="Index" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUp7jbEfGtpPIX7v2jcA" name="Address" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUqLjbEfGtpPIX7v2jcA" name="State" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUqbjbEfGtpPIX7v2jcA" name="Reference" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUqrjbEfGtpPIX7v2jcA" name="Deleted" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUq7jbEfGtpPIX7v2jcA" name="Virtual" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUrLjbEfGtpPIX7v2jcA" name="PhysicalAddress" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUrbjbEfGtpPIX7v2jcA" name="PhysicalAddressType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUrrjbEfGtpPIX7v2jcA" name="HasTags" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUr7jbEfGtpPIX7v2jcA" name="HasNotes" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUsLjbEfGtpPIX7v2jcA" name="TariffId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUsbjbEfGtpPIX7v2jcA" name="ContractedOptionId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUsrjbEfGtpPIX7v2jcA" name="LocalId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUs7jbEfGtpPIX7v2jcA" name="DeviceTypeTypeCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUtLjbEfGtpPIX7v2jcA" name="Domain" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuUtbjbEfGtpPIX7v2jcA" memberEnd="_MVuUmLjbEfGtpPIX7v2jcA _MVuUtrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuUtrjbEfGtpPIX7v2jcA" name="UnitId" visibility="public" type="_MVuUl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUtbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUt7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuUuLjbEfGtpPIX7v2jcA" memberEnd="_MVuUmrjbEfGtpPIX7v2jcA _MVuUubjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuUubjbEfGtpPIX7v2jcA" name="DeviceTypeId" visibility="public" type="_MVuUl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUuLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUurjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuUu7jbEfGtpPIX7v2jcA" memberEnd="_MVuUnLjbEfGtpPIX7v2jcA _MVuUvLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuUvLjbEfGtpPIX7v2jcA" name="LocalId" visibility="public" type="_MVuUl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuUu7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUvbjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuUvrjbEfGtpPIX7v2jcA" name="DeviceType">
+    <ownedAttribute xmi:id="_MVuUv7jbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUwLjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUwbjbEfGtpPIX7v2jcA" name="MeasurementTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUwrjbEfGtpPIX7v2jcA" name="Series" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUw7jbEfGtpPIX7v2jcA" name="Type" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUxLjbEfGtpPIX7v2jcA" name="Class" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuUxbjbEfGtpPIX7v2jcA" name="Tag">
+    <ownedAttribute xmi:id="_MVuUxrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUdLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU1LjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUx7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUyLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV37jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU17jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUybjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUyrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU2rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuUy7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUzLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUzbjbEfGtpPIX7v2jcA" name="UnitId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUzrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuUz7jbEfGtpPIX7v2jcA" name="TagTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU0LjbEfGtpPIX7v2jcA" name="Virtual" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU0bjbEfGtpPIX7v2jcA" name="CanActuate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU0rjbEfGtpPIX7v2jcA" name="DeviceId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU07jbEfGtpPIX7v2jcA" name="LocationId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU1LjbEfGtpPIX7v2jcA" memberEnd="_MVuUxrjbEfGtpPIX7v2jcA _MVuU1bjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU1bjbEfGtpPIX7v2jcA" name="UnitId" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU1LjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU1rjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU17jbEfGtpPIX7v2jcA" memberEnd="_MVuUyLjbEfGtpPIX7v2jcA _MVuU2LjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU2LjbEfGtpPIX7v2jcA" name="LocationId" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU17jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU2bjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU2rjbEfGtpPIX7v2jcA" memberEnd="_MVuUyrjbEfGtpPIX7v2jcA _MVuU27jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU27jbEfGtpPIX7v2jcA" name="DeviceId" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU2rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU3LjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuU3bjbEfGtpPIX7v2jcA" name="Data">
+    <ownedAttribute xmi:id="_MVuU3rjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU6rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU37jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU4LjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU7bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU4bjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU4rjbEfGtpPIX7v2jcA" name="Consumption" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU47jbEfGtpPIX7v2jcA" name="Date" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU5LjbEfGtpPIX7v2jcA" name="Read" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU5bjbEfGtpPIX7v2jcA" name="ConsumptionCost" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU5rjbEfGtpPIX7v2jcA" name="Cost" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU57jbEfGtpPIX7v2jcA" name="TagId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU6LjbEfGtpPIX7v2jcA" name="ValueType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU6bjbEfGtpPIX7v2jcA" name="CostMeasurementUnitId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU6rjbEfGtpPIX7v2jcA" memberEnd="_MVuU3rjbEfGtpPIX7v2jcA _MVuU67jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU67jbEfGtpPIX7v2jcA" name="TagId" visibility="public" type="_MVuU3bjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU6rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU7LjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU7bjbEfGtpPIX7v2jcA" memberEnd="_MVuU4LjbEfGtpPIX7v2jcA _MVuU7rjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU7rjbEfGtpPIX7v2jcA" name="CostMeasurementUnitId" visibility="public" type="_MVuU3bjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU7bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU77jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuU8LjbEfGtpPIX7v2jcA" name="AggregatedData">
+    <ownedAttribute xmi:id="_MVuU8bjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU-bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU8rjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU87jbEfGtpPIX7v2jcA" name="TagId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU9LjbEfGtpPIX7v2jcA" name="Date" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU9bjbEfGtpPIX7v2jcA" name="Value" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU9rjbEfGtpPIX7v2jcA" name="ValueCurrency" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU97jbEfGtpPIX7v2jcA" name="CurrencySymbol" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU-LjbEfGtpPIX7v2jcA" name="ValueType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuU-bjbEfGtpPIX7v2jcA" memberEnd="_MVuU8bjbEfGtpPIX7v2jcA _MVuU-rjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuU-rjbEfGtpPIX7v2jcA" name="TagId" visibility="public" type="_MVuU8LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuU-bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU-7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuU_LjbEfGtpPIX7v2jcA" name="InstantData">
+    <ownedAttribute xmi:id="_MVuU_bjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVC7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuU_rjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuU_7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUdLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVDrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVALjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVAbjbEfGtpPIX7v2jcA" name="UnitId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVArjbEfGtpPIX7v2jcA" name="Granularity" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVA7jbEfGtpPIX7v2jcA" name="TagId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVBLjbEfGtpPIX7v2jcA" name="Date" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVBbjbEfGtpPIX7v2jcA" name="Average" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVBrjbEfGtpPIX7v2jcA" name="Minimum" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVB7jbEfGtpPIX7v2jcA" name="Maximum" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVCLjbEfGtpPIX7v2jcA" name="Last" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVCbjbEfGtpPIX7v2jcA" name="Count" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVCrjbEfGtpPIX7v2jcA" name="ValueType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVC7jbEfGtpPIX7v2jcA" memberEnd="_MVuU_bjbEfGtpPIX7v2jcA _MVuVDLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVDLjbEfGtpPIX7v2jcA" name="TagId" visibility="public" type="_MVuU_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVC7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVDbjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVDrjbEfGtpPIX7v2jcA" memberEnd="_MVuU_7jbEfGtpPIX7v2jcA _MVuVD7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVD7jbEfGtpPIX7v2jcA" name="UnitId" visibility="public" type="_MVuU_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVDrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVELjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVEbjbEfGtpPIX7v2jcA" name="Actuation">
+    <ownedAttribute xmi:id="_MVuVErjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuUxbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVHbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVE7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVFLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVFbjbEfGtpPIX7v2jcA" name="Command" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVFrjbEfGtpPIX7v2jcA" name="Action" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVF7jbEfGtpPIX7v2jcA" name="Acknowledged" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVGLjbEfGtpPIX7v2jcA" name="OccurrenceDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVGbjbEfGtpPIX7v2jcA" name="TagId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVGrjbEfGtpPIX7v2jcA" name="Status" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVG7jbEfGtpPIX7v2jcA" name="LastOccurrenceDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVHLjbEfGtpPIX7v2jcA" name="LastResponse" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVHbjbEfGtpPIX7v2jcA" memberEnd="_MVuVErjbEfGtpPIX7v2jcA _MVuVHrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVHrjbEfGtpPIX7v2jcA" name="TagId" visibility="public" type="_MVuVEbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVHbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVH7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVILjbEfGtpPIX7v2jcA" name="Algorithm">
+    <ownedAttribute xmi:id="_MVuVIbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_MVuVIrjbEfGtpPIX7v2jcA">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVI7jbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVJLjbEfGtpPIX7v2jcA" name="Type" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVJbjbEfGtpPIX7v2jcA" name="Guid" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVJrjbEfGtpPIX7v2jcA" name="Asset">
+    <ownedAttribute xmi:id="_MVuVJ7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuVMLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVLbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVKLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVKbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVKrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVK7jbEfGtpPIX7v2jcA" name="TypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVLLjbEfGtpPIX7v2jcA" name="Active" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVLbjbEfGtpPIX7v2jcA" memberEnd="_MVuVJ7jbEfGtpPIX7v2jcA _MVuVLrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVLrjbEfGtpPIX7v2jcA" name="TypeId" visibility="public" type="_MVuVJrjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVLbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVL7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVMLjbEfGtpPIX7v2jcA" name="AssetType">
+    <ownedAttribute xmi:id="_MVuVMbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVMrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVM7jbEfGtpPIX7v2jcA" name="IsFlexible" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVNLjbEfGtpPIX7v2jcA" name="DomainId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVNbjbEfGtpPIX7v2jcA" name="Domain" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVNrjbEfGtpPIX7v2jcA" name="Benchmark">
+    <ownedAttribute xmi:id="_MVuVN7jbEfGtpPIX7v2jcA" name="HouseholdId" visibility="public" type="_MVuVSrjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVRLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVOLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVObjbEfGtpPIX7v2jcA" name="HabitationAreaId" visibility="public" type="_MVuVTbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVR7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVOrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVO7jbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVPLjbEfGtpPIX7v2jcA" name="HouseholdId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVPbjbEfGtpPIX7v2jcA" name="Household" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVPrjbEfGtpPIX7v2jcA" name="HabitationAreaId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVP7jbEfGtpPIX7v2jcA" name="HabitationArea" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVQLjbEfGtpPIX7v2jcA" name="AverageAnualConsumption" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVQbjbEfGtpPIX7v2jcA" name="AverageMonthlyConsumption" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVQrjbEfGtpPIX7v2jcA" name="AverageWeeklyConsumption" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVQ7jbEfGtpPIX7v2jcA" name="AverageDailyConsumption" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVRLjbEfGtpPIX7v2jcA" memberEnd="_MVuVN7jbEfGtpPIX7v2jcA _MVuVRbjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVRbjbEfGtpPIX7v2jcA" name="HouseholdId" visibility="public" type="_MVuVNrjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVRLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVRrjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVR7jbEfGtpPIX7v2jcA" memberEnd="_MVuVObjbEfGtpPIX7v2jcA _MVuVSLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVSLjbEfGtpPIX7v2jcA" name="HabitationAreaId" visibility="public" type="_MVuVNrjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVR7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVSbjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVSrjbEfGtpPIX7v2jcA" name="Household">
+    <ownedAttribute xmi:id="_MVuVS7jbEfGtpPIX7v2jcA" name="HouseholdId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVTLjbEfGtpPIX7v2jcA" name="HouseholdName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVTbjbEfGtpPIX7v2jcA" name="HabitationArea">
+    <ownedAttribute xmi:id="_MVuVTrjbEfGtpPIX7v2jcA" name="HabitationAreaId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVT7jbEfGtpPIX7v2jcA" name="HabitationAreaName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVULjbEfGtpPIX7v2jcA" name="DistributionLevel">
+    <ownedAttribute xmi:id="_MVuVUbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVUrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVU7jbEfGtpPIX7v2jcA" name="Country" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVVLjbEfGtpPIX7v2jcA" name="UtilityTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVVbjbEfGtpPIX7v2jcA" name="TimeUseSetting">
+    <ownedAttribute xmi:id="_MVuVVrjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVV7jbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVWLjbEfGtpPIX7v2jcA" name="SeasonSeriesId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVWbjbEfGtpPIX7v2jcA" name="HolidayAsSunday" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVWrjbEfGtpPIX7v2jcA" name="Official" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVW7jbEfGtpPIX7v2jcA" name="Dummy" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVXLjbEfGtpPIX7v2jcA" name="Contract">
+    <ownedAttribute xmi:id="_MVuVXbjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWErjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVZ7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVXrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVX7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV1rjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVarjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVYLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVYbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVYrjbEfGtpPIX7v2jcA" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVY7jbEfGtpPIX7v2jcA" name="ContractTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVZLjbEfGtpPIX7v2jcA" name="RegionCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVZbjbEfGtpPIX7v2jcA" name="GroupIds" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVZrjbEfGtpPIX7v2jcA" name="SupplierId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVZ7jbEfGtpPIX7v2jcA" memberEnd="_MVuVXbjbEfGtpPIX7v2jcA _MVuVaLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVaLjbEfGtpPIX7v2jcA" name="SupplierId" visibility="public" type="_MVuVXLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVZ7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVabjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVarjbEfGtpPIX7v2jcA" memberEnd="_MVuVX7jbEfGtpPIX7v2jcA _MVuVa7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVa7jbEfGtpPIX7v2jcA" name="ContractTypeId" visibility="public" type="_MVuVXLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVarjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVbLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVbbjbEfGtpPIX7v2jcA" name="ContractAttribute">
+    <ownedAttribute xmi:id="_MVuVbrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVd7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVb7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVcLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVcbjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVcrjbEfGtpPIX7v2jcA" name="Type" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVc7jbEfGtpPIX7v2jcA" name="ValueType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVdLjbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVdbjbEfGtpPIX7v2jcA" name="MinValue" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVdrjbEfGtpPIX7v2jcA" name="MaxValue" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVd7jbEfGtpPIX7v2jcA" memberEnd="_MVuVbrjbEfGtpPIX7v2jcA _MVuVeLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVeLjbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" type="_MVuVbbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVd7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVebjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVerjbEfGtpPIX7v2jcA" name="ContractVersion">
+    <ownedAttribute xmi:id="_MVuVe7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuVXLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVi7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVfLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVfbjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuVVbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVjrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVfrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVf7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV2bjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVkbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVgLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVgbjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuVULjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVlLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVgrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVg7jbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVhLjbEfGtpPIX7v2jcA" name="ContractId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVhbjbEfGtpPIX7v2jcA" name="StartDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVhrjbEfGtpPIX7v2jcA" name="Version" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVh7jbEfGtpPIX7v2jcA" name="DistributionLevelId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuViLjbEfGtpPIX7v2jcA" name="DistributionLevelCycleId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVibjbEfGtpPIX7v2jcA" name="TimeUseSettingId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVirjbEfGtpPIX7v2jcA" name="DocumentTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVi7jbEfGtpPIX7v2jcA" memberEnd="_MVuVe7jbEfGtpPIX7v2jcA _MVuVjLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVjLjbEfGtpPIX7v2jcA" name="ContractId" visibility="public" type="_MVuVerjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVi7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVjbjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVjrjbEfGtpPIX7v2jcA" memberEnd="_MVuVfbjbEfGtpPIX7v2jcA _MVuVj7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVj7jbEfGtpPIX7v2jcA" name="TimeUseSettingId" visibility="public" type="_MVuVerjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVjrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVkLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVkbjbEfGtpPIX7v2jcA" memberEnd="_MVuVf7jbEfGtpPIX7v2jcA _MVuVkrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVkrjbEfGtpPIX7v2jcA" name="DocumentTypeId" visibility="public" type="_MVuVerjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVkbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVk7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVlLjbEfGtpPIX7v2jcA" memberEnd="_MVuVgbjbEfGtpPIX7v2jcA _MVuVlbjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVlbjbEfGtpPIX7v2jcA" name="DistributionLevelId" visibility="public" type="_MVuVerjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVlLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVlrjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVl7jbEfGtpPIX7v2jcA" name="ContractCode">
+    <ownedAttribute xmi:id="_MVuVmLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuVXLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVpLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVmbjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVmrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWErjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVp7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVm7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVnLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV1rjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVqrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVnbjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVnrjbEfGtpPIX7v2jcA" name="GroupId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVn7jbEfGtpPIX7v2jcA" name="ContractCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVoLjbEfGtpPIX7v2jcA" name="ContractTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVobjbEfGtpPIX7v2jcA" name="RegionCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVorjbEfGtpPIX7v2jcA" name="ContractIds" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVo7jbEfGtpPIX7v2jcA" name="SupplierId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVpLjbEfGtpPIX7v2jcA" memberEnd="_MVuVmLjbEfGtpPIX7v2jcA _MVuVpbjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVpbjbEfGtpPIX7v2jcA" name="ContractIds" visibility="public" type="_MVuVl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVpLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVprjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVp7jbEfGtpPIX7v2jcA" memberEnd="_MVuVmrjbEfGtpPIX7v2jcA _MVuVqLjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVqLjbEfGtpPIX7v2jcA" name="SupplierId" visibility="public" type="_MVuVl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVp7jbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVqbjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVqrjbEfGtpPIX7v2jcA" memberEnd="_MVuVnLjbEfGtpPIX7v2jcA _MVuVq7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVq7jbEfGtpPIX7v2jcA" name="ContractTypeId" visibility="public" type="_MVuVl7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVqrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVrLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVrbjbEfGtpPIX7v2jcA" name="Country">
+    <ownedAttribute xmi:id="_MVuVrrjbEfGtpPIX7v2jcA" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVr7jbEfGtpPIX7v2jcA" name="Description" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVsLjbEfGtpPIX7v2jcA" name="Region">
+    <ownedAttribute xmi:id="_MVuVsbjbEfGtpPIX7v2jcA" name="Code" visibility="public" type="_MVuVrbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVurjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVsrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVs7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWJLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVvbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVtLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVtbjbEfGtpPIX7v2jcA" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVtrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVt7jbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVuLjbEfGtpPIX7v2jcA" name="TimeZoneWindows" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVubjbEfGtpPIX7v2jcA" name="TimeZoneIANA" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVurjbEfGtpPIX7v2jcA" memberEnd="_MVuVsbjbEfGtpPIX7v2jcA _MVuVu7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVu7jbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" type="_MVuVsLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVurjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVvLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVvbjbEfGtpPIX7v2jcA" memberEnd="_MVuVs7jbEfGtpPIX7v2jcA _MVuVvrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVvrjbEfGtpPIX7v2jcA" name="TimeZoneWindows" visibility="public" type="_MVuVsLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVvbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVv7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVwLjbEfGtpPIX7v2jcA" name="Document"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVwbjbEfGtpPIX7v2jcA" name="DocumentField">
+    <ownedAttribute xmi:id="_MVuVwrjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVyrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVw7jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVxLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVxbjbEfGtpPIX7v2jcA" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVxrjbEfGtpPIX7v2jcA" name="Description" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVx7jbEfGtpPIX7v2jcA" name="IsNumeric" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVyLjbEfGtpPIX7v2jcA" name="IsAccumulated" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVybjbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuVyrjbEfGtpPIX7v2jcA" memberEnd="_MVuVwrjbEfGtpPIX7v2jcA _MVuVy7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuVy7jbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" type="_MVuVwbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuVyrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuVzLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuVzbjbEfGtpPIX7v2jcA" name="RECMemberSector">
+    <ownedAttribute xmi:id="_MVuVzrjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuVz7jbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV0LjbEfGtpPIX7v2jcA" name="RECMemberType">
+    <ownedAttribute xmi:id="_MVuV0bjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV0rjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV07jbEfGtpPIX7v2jcA" name="RECMemberState">
+    <ownedAttribute xmi:id="_MVuV1LjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV1bjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV1rjbEfGtpPIX7v2jcA" name="ContractType">
+    <ownedAttribute xmi:id="_MVuV17jbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV2LjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV2bjbEfGtpPIX7v2jcA" name="DocumentType">
+    <ownedAttribute xmi:id="_MVuV2rjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV27jbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV3LjbEfGtpPIX7v2jcA" name="RECReportFrequence">
+    <ownedAttribute xmi:id="_MVuV3bjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV3rjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV37jbEfGtpPIX7v2jcA" name="Local">
+    <ownedAttribute xmi:id="_MVuV4LjbEfGtpPIX7v2jcA" name="Code" visibility="public" type="_MVuVrbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuV9rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuV4bjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV4rjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWKLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuV-bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuV47jbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV5LjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV5bjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV5rjbEfGtpPIX7v2jcA" name="UserId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV57jbEfGtpPIX7v2jcA" name="ZipCodeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV6LjbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV6bjbEfGtpPIX7v2jcA" name="LanguageCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV6rjbEfGtpPIX7v2jcA" name="Region1" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV67jbEfGtpPIX7v2jcA" name="Region2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV7LjbEfGtpPIX7v2jcA" name="Region3" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV7bjbEfGtpPIX7v2jcA" name="City" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV7rjbEfGtpPIX7v2jcA" name="Area2" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV77jbEfGtpPIX7v2jcA" name="Zip" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV8LjbEfGtpPIX7v2jcA" name="Latitude" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV8bjbEfGtpPIX7v2jcA" name="Longitude" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV8rjbEfGtpPIX7v2jcA" name="IsStorage" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV87jbEfGtpPIX7v2jcA" name="CreatedDate" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV9LjbEfGtpPIX7v2jcA" name="CountryId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV9bjbEfGtpPIX7v2jcA" name="Deleted" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuV9rjbEfGtpPIX7v2jcA" memberEnd="_MVuV4LjbEfGtpPIX7v2jcA _MVuV97jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuV97jbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" type="_MVuV37jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuV9rjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuV-LjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuV-bjbEfGtpPIX7v2jcA" memberEnd="_MVuV4rjbEfGtpPIX7v2jcA _MVuV-rjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuV-rjbEfGtpPIX7v2jcA" name="UserId" visibility="public" type="_MVuV37jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuV-bjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuV-7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuV_LjbEfGtpPIX7v2jcA" name="MeasurementUnit">
+    <ownedAttribute xmi:id="_MVuV_bjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV_rjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuV_7jbEfGtpPIX7v2jcA" name="SmallName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWALjbEfGtpPIX7v2jcA" name="IsCurrency" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWAbjbEfGtpPIX7v2jcA" name="Report">
+    <ownedAttribute xmi:id="_MVuWArjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWA7jbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWBLjbEfGtpPIX7v2jcA" name="Type" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWBbjbEfGtpPIX7v2jcA" name="Format" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWBrjbEfGtpPIX7v2jcA" name="ExportFormat" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWB7jbEfGtpPIX7v2jcA" name="Targets" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWCLjbEfGtpPIX7v2jcA" name="NeedsInputs" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWCbjbEfGtpPIX7v2jcA" name="TimeZoneIANA" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWCrjbEfGtpPIX7v2jcA" name="IsPublic" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWC7jbEfGtpPIX7v2jcA" name="IsActive" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWDLjbEfGtpPIX7v2jcA" name="RevisionSource">
+    <ownedAttribute xmi:id="_MVuWDbjbEfGtpPIX7v2jcA" name="SourceId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWDrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWD7jbEfGtpPIX7v2jcA" name="Priority" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWELjbEfGtpPIX7v2jcA" name="IsEstimated" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWEbjbEfGtpPIX7v2jcA" name="IsTemporary" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWErjbEfGtpPIX7v2jcA" name="Supplier">
+    <ownedAttribute xmi:id="_MVuWE7jbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuV_LjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWHrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWFLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWFbjbEfGtpPIX7v2jcA" name="Code" visibility="public" type="_MVuVrbjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWIbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWFrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWF7jbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWGLjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWGbjbEfGtpPIX7v2jcA" name="MeasurementType" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWGrjbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWG7jbEfGtpPIX7v2jcA" name="Deleted" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWHLjbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWHbjbEfGtpPIX7v2jcA" name="UtilityTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWHrjbEfGtpPIX7v2jcA" memberEnd="_MVuWE7jbEfGtpPIX7v2jcA _MVuWH7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWH7jbEfGtpPIX7v2jcA" name="MeasurementUnit" visibility="public" type="_MVuWErjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWHrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWILjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWIbjbEfGtpPIX7v2jcA" memberEnd="_MVuWFbjbEfGtpPIX7v2jcA _MVuWIrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWIrjbEfGtpPIX7v2jcA" name="CountryCode" visibility="public" type="_MVuWErjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWIbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWI7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWJLjbEfGtpPIX7v2jcA" name="Timezone">
+    <ownedAttribute xmi:id="_MVuWJbjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWJrjbEfGtpPIX7v2jcA" name="DisplayName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWJ7jbEfGtpPIX7v2jcA" name="Offset" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWKLjbEfGtpPIX7v2jcA" name="User">
+    <ownedAttribute xmi:id="_MVuWKbjbEfGtpPIX7v2jcA" name="ProfileTypeId" visibility="public" type="_MVuWT7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWRrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWKrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWK7jbEfGtpPIX7v2jcA" name="Code" visibility="public" type="_MVuWU7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWSbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWLLjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWLbjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWV7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWTLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWLrjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWL7jbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWMLjbEfGtpPIX7v2jcA" name="Key" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWMbjbEfGtpPIX7v2jcA" name="Login" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWMrjbEfGtpPIX7v2jcA" name="Application" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWM7jbEfGtpPIX7v2jcA" name="Email" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWNLjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWNbjbEfGtpPIX7v2jcA" name="Language" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWNrjbEfGtpPIX7v2jcA" name="Profile" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWN7jbEfGtpPIX7v2jcA" name="Currency" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWOLjbEfGtpPIX7v2jcA" name="Created" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWObjbEfGtpPIX7v2jcA" name="Deleted" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWOrjbEfGtpPIX7v2jcA" name="Blocked" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWO7jbEfGtpPIX7v2jcA" name="Configured" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWPLjbEfGtpPIX7v2jcA" name="Providers" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWPbjbEfGtpPIX7v2jcA" name="Newsletter" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWPrjbEfGtpPIX7v2jcA" name="Units" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWP7jbEfGtpPIX7v2jcA" name="CurrencySymbol" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWQLjbEfGtpPIX7v2jcA" name="Active" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWQbjbEfGtpPIX7v2jcA" name="ReceiveSmsNotifications" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWQrjbEfGtpPIX7v2jcA" name="ReceiveEmailNotifications" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWQ7jbEfGtpPIX7v2jcA" name="SingleSession" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWRLjbEfGtpPIX7v2jcA" name="TwoFactor" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWRbjbEfGtpPIX7v2jcA" name="IsLdapUser" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWRrjbEfGtpPIX7v2jcA" memberEnd="_MVuWKbjbEfGtpPIX7v2jcA _MVuWR7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWR7jbEfGtpPIX7v2jcA" name="Profile" visibility="public" type="_MVuWKLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWRrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWSLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWSbjbEfGtpPIX7v2jcA" memberEnd="_MVuWK7jbEfGtpPIX7v2jcA _MVuWSrjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWSrjbEfGtpPIX7v2jcA" name="Language" visibility="public" type="_MVuWKLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWSbjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWS7jbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWTLjbEfGtpPIX7v2jcA" memberEnd="_MVuWLbjbEfGtpPIX7v2jcA _MVuWTbjbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWTbjbEfGtpPIX7v2jcA" name="Currency" visibility="public" type="_MVuWKLjbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWTLjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWTrjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWT7jbEfGtpPIX7v2jcA" name="ProfileType">
+    <ownedAttribute xmi:id="_MVuWULjbEfGtpPIX7v2jcA" name="ProfileTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWUbjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWUrjbEfGtpPIX7v2jcA" name="Level" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWU7jbEfGtpPIX7v2jcA" name="Language">
+    <ownedAttribute xmi:id="_MVuWVLjbEfGtpPIX7v2jcA" name="LanguageId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWVbjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWVrjbEfGtpPIX7v2jcA" name="Code" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWV7jbEfGtpPIX7v2jcA" name="Currency">
+    <ownedAttribute xmi:id="_MVuWWLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWWbjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWWrjbEfGtpPIX7v2jcA" name="SmallName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWW7jbEfGtpPIX7v2jcA" name="ApplicationType">
+    <ownedAttribute xmi:id="_MVuWXLjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWXbjbEfGtpPIX7v2jcA" name="Application" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWXrjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWX7jbEfGtpPIX7v2jcA" name="Instance">
+    <ownedAttribute xmi:id="_MVuWYLjbEfGtpPIX7v2jcA" name="Id" visibility="public" type="_MVuWW7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWZrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWYbjbEfGtpPIX7v2jcA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWYrjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWY7jbEfGtpPIX7v2jcA" name="ApplicationTypeId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWZLjbEfGtpPIX7v2jcA" name="Key" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWZbjbEfGtpPIX7v2jcA" name="Name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MVuWZrjbEfGtpPIX7v2jcA" memberEnd="_MVuWYLjbEfGtpPIX7v2jcA _MVuWZ7jbEfGtpPIX7v2jcA">
+    <ownedEnd xmi:id="_MVuWZ7jbEfGtpPIX7v2jcA" name="ApplicationTypeId" visibility="public" type="_MVuWX7jbEfGtpPIX7v2jcA" isUnique="false" association="_MVuWZrjbEfGtpPIX7v2jcA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MVuWaLjbEfGtpPIX7v2jcA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWabjbEfGtpPIX7v2jcA" name="Policy">
+    <ownedAttribute xmi:id="_MVuWarjbEfGtpPIX7v2jcA" name="Id" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWa7jbEfGtpPIX7v2jcA" value="my.test:policy"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWbLjbEfGtpPIX7v2jcA" name="OwnerThing" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWbbjbEfGtpPIX7v2jcA" value="READ;WRITE"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWbrjbEfGtpPIX7v2jcA" name="OwnerPolicy" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWb7jbEfGtpPIX7v2jcA" value="READ;WRITE"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWcLjbEfGtpPIX7v2jcA" name="OwnerDBConfig" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWcbjbEfGtpPIX7v2jcA" value="READ;WRITE"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWcrjbEfGtpPIX7v2jcA" name="OwnerView" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWc7jbEfGtpPIX7v2jcA" value="READ;WRITE"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWdLjbEfGtpPIX7v2jcA" name="OwnerConnection" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWdbjbEfGtpPIX7v2jcA" value="READ;WRITE"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWdrjbEfGtpPIX7v2jcA" name="ObserverThing" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWd7jbEfGtpPIX7v2jcA" value="READ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWeLjbEfGtpPIX7v2jcA" name="ObserverPolicy" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWebjbEfGtpPIX7v2jcA" value="READ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWerjbEfGtpPIX7v2jcA" name="ObserverDBConfig" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWe7jbEfGtpPIX7v2jcA" value="READ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWfLjbEfGtpPIX7v2jcA" name="ObserverView" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWfbjbEfGtpPIX7v2jcA" value="READ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWfrjbEfGtpPIX7v2jcA" name="ObserverConnection" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWf7jbEfGtpPIX7v2jcA" value="READ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MVuWgLjbEfGtpPIX7v2jcA" name="DeviceDetail">
+    <ownedAttribute xmi:id="_MVuWgbjbEfGtpPIX7v2jcA" name="OMIEId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MVuWgrjbEfGtpPIX7v2jcA" value="2337"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWg7jbEfGtpPIX7v2jcA" name="OMIEFeature" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWhLjbEfGtpPIX7v2jcA" value="OMIESurplusPrice"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWhbjbEfGtpPIX7v2jcA" name="OMIEUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWhrjbEfGtpPIX7v2jcA" value="Euro"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWh7jbEfGtpPIX7v2jcA" name="GridMeterId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MVuWiLjbEfGtpPIX7v2jcA" value="7153"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWibjbEfGtpPIX7v2jcA" name="GridMeterFeature" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWirjbEfGtpPIX7v2jcA" value="Voltage;Current;ActivePower;TotalImportedActiveEnergy;TotalExportedActiveEnergy"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWi7jbEfGtpPIX7v2jcA" name="GridMeterUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWjLjbEfGtpPIX7v2jcA" value="V;A;W;Wh;Wh"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWjbjbEfGtpPIX7v2jcA" name="VictronId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MVuWjrjbEfGtpPIX7v2jcA" value="7301"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWj7jbEfGtpPIX7v2jcA" name="VictronFeature" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWkLjbEfGtpPIX7v2jcA" value="GridVoltage;GridFrequency;ACOutCurrent;ACOutPower;BatteryVoltage;BatteryCurrent;BatteryStateOfCharge;InverterState;InverterError;InverterSwitchPosition;InverterInputCurrentLimitConfig;InverterESSDisableChargeFlagPhase;InverterESSDisableFeedbackFlagPhase;BatteryChargingEnergy;BatteryDischargingEnergy;BatteryAppliedPower;SCMode;SCTargetSoC;SCMinimumPower;FlexibilityStatus;FlexibilityPowerFeed;FlexibilitySellingBids"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWkbjbEfGtpPIX7v2jcA" name="VictronUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWkrjbEfGtpPIX7v2jcA" value="V;Hz;A;W;V;A;%;%;;;A;b;b;Wh;Wh;W;;%;W;;W;"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWk7jbEfGtpPIX7v2jcA" name="BateriaSolisId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MVuWlLjbEfGtpPIX7v2jcA" value="7601"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWlbjbEfGtpPIX7v2jcA" name="BateriaSolisFeature" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWlrjbEfGtpPIX7v2jcA" value="BatteryVoltage;BatteryCurrent;BatteryStateOfCharge;BatteryStatus;BatteryMaxChargeCurrent;BatteryMaxDischargeCurrent;BatterySOH;BatteryChargeEnergy"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWl7jbEfGtpPIX7v2jcA" name="BateriaSolisUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWmLjbEfGtpPIX7v2jcA" value="V;A;%;;A;A;%;Wh"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWmbjbEfGtpPIX7v2jcA" name="PVMeterId" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MVuWmrjbEfGtpPIX7v2jcA" value="7722"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWm7jbEfGtpPIX7v2jcA" name="PVMeterFeature" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWnLjbEfGtpPIX7v2jcA" value="Total;Power"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MVuWnbjbEfGtpPIX7v2jcA" name="PVMeterUnit" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MVuWnrjbEfGtpPIX7v2jcA" value="kWh;W"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

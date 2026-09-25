@@ -1,0 +1,168 @@
+{
+    "policyId": "my.test:policy",
+    "attributes": {
+        "Id": "",
+        "Serial": "",
+        "Name": "",
+        "DeviceTypeId": "",
+        "UnitId": "",
+        "Interval": "",
+        "IsCommunicating": "",
+        "DataCollectionStatus": "",
+        "Index": "",
+        "Address": "",
+        "State": "",
+        "Reference": "",
+        "Deleted": "",
+        "Virtual": "",
+        "PhysicalAddress": "",
+        "PhysicalAddressType": "",
+        "HasTags": "",
+        "HasNotes": "",
+        "TariffId": "",
+        "ContractedOptionId": "",
+        "LocalId": "",
+        "DeviceTypeTypeCode": "",
+        "Domain": ""
+    },
+    "features": {
+        "Id": {
+            "properties": {
+                "value": 7301,
+                "unit": "Int"
+            }
+        },
+        "GridVoltage": {
+            "properties": {
+                "value": "",
+                "unit": "V"
+            }
+        },
+        "GridFrequency": {
+            "properties": {
+                "value": "",
+                "unit": "Hz"
+            }
+        },
+        "ACOutCurrent": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "ACOutPower": {
+            "properties": {
+                "value": "",
+                "unit": "W"
+            }
+        },
+        "BatteryVoltage": {
+            "properties": {
+                "value": "",
+                "unit": "V"
+            }
+        },
+        "BatteryCurrent": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "BatteryStateOfCharge": {
+            "properties": {
+                "value": "",
+                "unit": "%"
+            }
+        },
+        "InverterState": {
+            "properties": {
+                "value": "",
+                "unit": "%"
+            }
+        },
+        "InverterError": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        },
+        "InverterSwitchPosition": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        },
+        "InverterInputCurrentLimitConfig": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "InverterESSDisableChargeFlagPhase": {
+            "properties": {
+                "value": "",
+                "unit": "b"
+            }
+        },
+        "InverterESSDisableFeedbackFlagPhase": {
+            "properties": {
+                "value": "",
+                "unit": "b"
+            }
+        },
+        "BatteryChargingEnergy": {
+            "properties": {
+                "value": "",
+                "unit": "Wh"
+            }
+        },
+        "BatteryDischargingEnergy": {
+            "properties": {
+                "value": "",
+                "unit": "Wh"
+            }
+        },
+        "BatteryAppliedPower": {
+            "properties": {
+                "value": "",
+                "unit": "W"
+            }
+        },
+        "SCMode": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        },
+        "SCTargetSoC": {
+            "properties": {
+                "value": "",
+                "unit": "%"
+            }
+        },
+        "SCMinimumPower": {
+            "properties": {
+                "value": "",
+                "unit": "W"
+            }
+        },
+        "FlexibilityStatus": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        },
+        "FlexibilityPowerFeed": {
+            "properties": {
+                "value": "",
+                "unit": "W"
+            }
+        },
+        "FlexibilitySellingBids": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        }
+    }
+}

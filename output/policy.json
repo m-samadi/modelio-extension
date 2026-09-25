@@ -1,0 +1,88 @@
+{
+    "policyId": "my.test:policy",
+    "entries": {
+        "owner": {
+            "subjects": {
+                "ditto:owner": {
+                    "type": "basic user"
+                }
+            },
+            "resources": {
+                "thing:/": {
+                    "grant": [
+                        "READ",
+                        "WRITE"
+                    ],
+                    "revoke": []
+                },
+                "policy:/": {
+                    "grant": [
+                        "READ",
+                        "WRITE"
+                    ],
+                    "revoke": []
+                },
+                "dbconfig:/": {
+                    "grant": [
+                        "READ",
+                        "WRITE"
+                    ],
+                    "revoke": []
+                },
+                "view:/": {
+                    "grant": [
+                        "READ",
+                        "WRITE"
+                    ],
+                    "revoke": []
+                },
+                "connection:/": {
+                    "grant": [
+                        "READ",
+                        "WRITE"
+                    ],
+                    "revoke": []
+                }
+            }
+        },
+        "observer": {
+            "subjects": {
+                "ditto:observer": {
+                    "type": "observer user"
+                }
+            },
+            "resources": {
+                "thing:/": {
+                    "grant": [
+                        "READ"
+                    ],
+                    "revoke": []
+                },
+                "policy:/": {
+                    "grant": [
+                        "READ"
+                    ],
+                    "revoke": []
+                },
+                "dbconfig:/": {
+                    "grant": [
+                        "READ"
+                    ],
+                    "revoke": []
+                },
+                "view:/": {
+                    "grant": [
+                        "READ"
+                    ],
+                    "revoke": []
+                },
+                "connection:/": {
+                    "grant": [
+                        "READ"
+                    ],
+                    "revoke": []
+                }
+            }
+        }
+    }
+}

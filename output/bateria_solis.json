@@ -1,0 +1,84 @@
+{
+    "policyId": "my.test:policy",
+    "attributes": {
+        "Id": "",
+        "Serial": "",
+        "Name": "",
+        "DeviceTypeId": "",
+        "UnitId": "",
+        "Interval": "",
+        "IsCommunicating": "",
+        "DataCollectionStatus": "",
+        "Index": "",
+        "Address": "",
+        "State": "",
+        "Reference": "",
+        "Deleted": "",
+        "Virtual": "",
+        "PhysicalAddress": "",
+        "PhysicalAddressType": "",
+        "HasTags": "",
+        "HasNotes": "",
+        "TariffId": "",
+        "ContractedOptionId": "",
+        "LocalId": "",
+        "DeviceTypeTypeCode": "",
+        "Domain": ""
+    },
+    "features": {
+        "Id": {
+            "properties": {
+                "value": 7601,
+                "unit": "Int"
+            }
+        },
+        "BatteryVoltage": {
+            "properties": {
+                "value": "",
+                "unit": "V"
+            }
+        },
+        "BatteryCurrent": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "BatteryStateOfCharge": {
+            "properties": {
+                "value": "",
+                "unit": "%"
+            }
+        },
+        "BatteryStatus": {
+            "properties": {
+                "value": "",
+                "unit": ""
+            }
+        },
+        "BatteryMaxChargeCurrent": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "BatteryMaxDischargeCurrent": {
+            "properties": {
+                "value": "",
+                "unit": "A"
+            }
+        },
+        "BatterySOH": {
+            "properties": {
+                "value": "",
+                "unit": "%"
+            }
+        },
+        "BatteryChargeEnergy": {
+            "properties": {
+                "value": "",
+                "unit": "Wh"
+            }
+        }
+    }
+}
