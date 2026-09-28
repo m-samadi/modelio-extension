@@ -122,7 +122,7 @@ json_str["entries"]["observer"]["resources"]["dbconfig:/"]["grant"] = conv_str_a
 json_str["entries"]["observer"]["resources"]["view:/"]["grant"] = conv_str_arr(policy[9][1])
 json_str["entries"]["observer"]["resources"]["connection:/"]["grant"] = conv_str_arr(policy[10][1])
 
-with open("output/policy.json", "w") as f:
+with open("output/policy/policy.json", "w") as f:
     json.dump(json_str, f, indent=4)
 
 # Device
@@ -164,7 +164,7 @@ for i in range(len(device)):
 device_name = ["omie", "grid meter", "victron", "bateria solis", "pv meter"]
 device_filename = ["omie", "grid_meter", "victron", "bateria_solis", "pv_meter"]
 
-with open("output/house.yaml", "w") as f:
+with open("output/device/house.yaml", "w") as f:
     f.write("path: house.sensors")
     f.write("\ndevices:")
 
@@ -224,5 +224,5 @@ for i in range(len(device_filename)):
         device_json["features"][feature_list[j]]["properties"].update({"value":""})
         device_json["features"][feature_list[j]]["properties"].update({"unit":unit_list[j]})
 
-    with open("output/" + device_filename[i] + ".json", "w") as f:
+    with open("output/device/" + device_filename[i] + ".json", "w") as f:
         json.dump(device_json, f, indent=4)
