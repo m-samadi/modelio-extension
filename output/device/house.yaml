@@ -1,4 +1,4 @@
-path: house.sensors
+path: house1.sensors
 devices:
     "omie": omie.json
     "grid meter": grid_meter.json

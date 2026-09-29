@@ -23,7 +23,7 @@ def conv_str_arr(str):
 # Policy
 #==========================================================
 ### Fetch the policy information from the XML file
-tree = ET.parse('cwd.xmi')
+tree = ET.parse('modelio/cwd.xmi')
 root = tree.getroot()
 
 index = 0
@@ -165,7 +165,7 @@ device_name = ["omie", "grid meter", "victron", "bateria solis", "pv meter"]
 device_filename = ["omie", "grid_meter", "victron", "bateria_solis", "pv_meter"]
 
 with open("output/device/house.yaml", "w") as f:
-    f.write("path: house.sensors")
+    f.write("path: house1.sensors")
     f.write("\ndevices:")
 
     for i in range(len(device_name)):
