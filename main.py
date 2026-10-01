@@ -23,7 +23,7 @@ def conv_str_arr(str):
 # Policy
 #==========================================================
 ### Fetch the policy information from the XML file
-tree = ET.parse('modelio/cwd.xmi')
+tree = ET.parse("modelio/cwd.xmi")
 root = tree.getroot()
 
 index = 0
