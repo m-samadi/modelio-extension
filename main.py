@@ -51,8 +51,8 @@ json_str = {
     "entries": {
         "owner": {
             "subjects": {
-                "ditto:owner": {
-                    "type": "basic user"
+                "nginx:ditto": {
+                    "type": "nginx basic auth user"
                 }
             },
             "resources": {
