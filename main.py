@@ -161,15 +161,13 @@ for i in range(len(device)):
     json_def["attributes"].update({device[i]:""})
 
 # Write the network information for the devices in the YAML file
-device_name = ["omie", "grid meter", "victron", "bateria solis", "pv meter"]
-device_filename = ["omie", "grid_meter", "victron", "bateria_solis", "pv_meter"]
-
+device_name = ["omie", "grid_meter", "victron", "bateria_solis", "pv_meter"]
 with open("output/device/house.yaml", "w") as f:
     f.write("path: house1.sensors")
     f.write("\ndevices:")
 
     for i in range(len(device_name)):
-        f.write('\n    "' + device_name[i] + '": ' + device_filename[i] + '.json')
+        f.write('\n    "' + device_name[i] + '": ' + device_name[i] + '.json')
 
     f.close()
 
@@ -196,7 +194,7 @@ for i in range(15):
     device.append([split2[0], split4[0]])
 
 # Write the information obtained for each device in the JSON file
-for i in range(len(device_filename)):
+for i in range(len(device_name)):
     device_json = copy.deepcopy(json_def)
 
     # Set the Id
@@ -224,5 +222,5 @@ for i in range(len(device_filename)):
         device_json["features"][feature_list[j]]["properties"].update({"value":""})
         device_json["features"][feature_list[j]]["properties"].update({"unit":unit_list[j]})
 
-    with open("output/device/" + device_filename[i] + ".json", "w") as f:
+    with open("output/device/" + device_name[i] + ".json", "w") as f:
         json.dump(device_json, f, indent=4)
