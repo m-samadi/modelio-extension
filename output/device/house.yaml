@@ -1,7 +1,7 @@
 path: house1.sensors
 devices:
-    "omie": omie.json
-    "grid_meter": grid_meter.json
-    "victron": victron.json
     "bateria_solis": bateria_solis.json
+    "omie": omie.json
+    "victron": victron.json
+    "grid_meter": grid_meter.json
     "pv_meter": pv_meter.json

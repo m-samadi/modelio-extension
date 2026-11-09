@@ -1,40 +1,25 @@
 {
     "policyId": "my.test:policy",
     "attributes": {
-        "Id": "",
-        "Serial": "",
-        "Name": "",
-        "DeviceTypeId": "",
-        "UnitId": "",
-        "Interval": "",
-        "IsCommunicating": "",
-        "DataCollectionStatus": "",
-        "Index": "",
-        "Address": "",
-        "State": "",
-        "Reference": "",
-        "Deleted": "",
-        "Virtual": "",
-        "PhysicalAddress": "",
-        "PhysicalAddressType": "",
-        "HasTags": "",
-        "HasNotes": "",
-        "TariffId": "",
-        "ContractedOptionId": "",
-        "LocalId": "",
-        "DeviceTypeTypeCode": "",
-        "Domain": ""
+        "Id": "2337",
+        "Serial": "FE3A7921EBFA46A38EC1C9AFD7B0BA6C",
+        "Name": "OMIE PT",
+        "DeviceTypeId": "106",
+        "UnitId": "443",
+        "Address": "FE3A7921EBFA46A38EC1C9AFD7B0BA6C",
+        "State": "1",
+        "PhysicalAddress": "44",
+        "PhysicalAddressType": "Other",
+        "TariffId": "-1",
+        "ContractedOptionId": "-1",
+        "LocalId": "-1",
+        "DeviceTypeTypeCode": "nan",
+        "Domain": "nan"
     },
     "features": {
-        "Id": {
-            "properties": {
-                "value": 2337,
-                "unit": "Int"
-            }
-        },
         "OMIESurplusPrice": {
             "properties": {
-                "value": "",
+                "value": 0.1036,
                 "unit": "Euro"
             }
         }

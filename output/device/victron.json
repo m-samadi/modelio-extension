@@ -1,167 +1,50 @@
 {
     "policyId": "my.test:policy",
     "attributes": {
-        "Id": "",
-        "Serial": "",
-        "Name": "",
-        "DeviceTypeId": "",
-        "UnitId": "",
-        "Interval": "",
-        "IsCommunicating": "",
-        "DataCollectionStatus": "",
-        "Index": "",
-        "Address": "",
-        "State": "",
-        "Reference": "",
-        "Deleted": "",
-        "Virtual": "",
-        "PhysicalAddress": "",
-        "PhysicalAddressType": "",
-        "HasTags": "",
-        "HasNotes": "",
-        "TariffId": "",
-        "ContractedOptionId": "",
-        "LocalId": "",
-        "DeviceTypeTypeCode": "",
-        "Domain": ""
+        "Id": "7301",
+        "Serial": "7F0861EFF7F04B36BB8E6EE475FCF5E6",
+        "Name": "Victron",
+        "DeviceTypeId": "201",
+        "UnitId": "1496",
+        "Address": "7F0861EFF7F04B36BB8E6EE475FCF5E6",
+        "State": "1",
+        "PhysicalAddress": "192.168.1.129:502:228",
+        "PhysicalAddressType": "ModbusTCP",
+        "TariffId": "-1",
+        "ContractedOptionId": "-1",
+        "LocalId": "158",
+        "DeviceTypeTypeCode": "ENERGYSTORAGE",
+        "Domain": "STORAGE"
     },
     "features": {
-        "Id": {
+        "BatteryVoltageAC": {
             "properties": {
-                "value": 7301,
-                "unit": "Int"
-            }
-        },
-        "GridVoltage": {
-            "properties": {
-                "value": "",
+                "value": 219,
                 "unit": "V"
             }
         },
         "GridFrequency": {
             "properties": {
-                "value": "",
+                "value": 50.1,
                 "unit": "Hz"
             }
         },
-        "ACOutCurrent": {
+        "BatteryCurrentAC": {
             "properties": {
-                "value": "",
+                "value": 0.41667,
                 "unit": "A"
             }
         },
-        "ACOutPower": {
+        "BatteryPower": {
             "properties": {
-                "value": "",
+                "value": 0.0075,
                 "unit": "W"
             }
         },
         "BatteryVoltage": {
             "properties": {
-                "value": "",
+                "value": 52.28,
                 "unit": "V"
-            }
-        },
-        "BatteryCurrent": {
-            "properties": {
-                "value": "",
-                "unit": "A"
-            }
-        },
-        "BatteryStateOfCharge": {
-            "properties": {
-                "value": "",
-                "unit": "%"
-            }
-        },
-        "InverterState": {
-            "properties": {
-                "value": "",
-                "unit": "%"
-            }
-        },
-        "InverterError": {
-            "properties": {
-                "value": "",
-                "unit": ""
-            }
-        },
-        "InverterSwitchPosition": {
-            "properties": {
-                "value": "",
-                "unit": ""
-            }
-        },
-        "InverterInputCurrentLimitConfig": {
-            "properties": {
-                "value": "",
-                "unit": "A"
-            }
-        },
-        "InverterESSDisableChargeFlagPhase": {
-            "properties": {
-                "value": "",
-                "unit": "b"
-            }
-        },
-        "InverterESSDisableFeedbackFlagPhase": {
-            "properties": {
-                "value": "",
-                "unit": "b"
-            }
-        },
-        "BatteryChargingEnergy": {
-            "properties": {
-                "value": "",
-                "unit": "Wh"
-            }
-        },
-        "BatteryDischargingEnergy": {
-            "properties": {
-                "value": "",
-                "unit": "Wh"
-            }
-        },
-        "BatteryAppliedPower": {
-            "properties": {
-                "value": "",
-                "unit": "W"
-            }
-        },
-        "SCMode": {
-            "properties": {
-                "value": "",
-                "unit": ""
-            }
-        },
-        "SCTargetSoC": {
-            "properties": {
-                "value": "",
-                "unit": "%"
-            }
-        },
-        "SCMinimumPower": {
-            "properties": {
-                "value": "",
-                "unit": "W"
-            }
-        },
-        "FlexibilityStatus": {
-            "properties": {
-                "value": "",
-                "unit": ""
-            }
-        },
-        "FlexibilityPowerFeed": {
-            "properties": {
-                "value": "",
-                "unit": "W"
-            }
-        },
-        "FlexibilitySellingBids": {
-            "properties": {
-                "value": "",
-                "unit": ""
             }
         }
     }

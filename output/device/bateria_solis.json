@@ -1,82 +1,61 @@
 {
     "policyId": "my.test:policy",
     "attributes": {
-        "Id": "",
-        "Serial": "",
-        "Name": "",
-        "DeviceTypeId": "",
-        "UnitId": "",
-        "Interval": "",
-        "IsCommunicating": "",
-        "DataCollectionStatus": "",
-        "Index": "",
-        "Address": "",
-        "State": "",
-        "Reference": "",
-        "Deleted": "",
-        "Virtual": "",
-        "PhysicalAddress": "",
-        "PhysicalAddressType": "",
-        "HasTags": "",
-        "HasNotes": "",
-        "TariffId": "",
-        "ContractedOptionId": "",
-        "LocalId": "",
-        "DeviceTypeTypeCode": "",
-        "Domain": ""
+        "Id": "7601",
+        "Serial": "BD2726A1F1114A99829BC9A2957ECCC1",
+        "Name": "Bateria Solis - Bateria",
+        "DeviceTypeId": "437",
+        "UnitId": "1551",
+        "Address": "BD2726A1F1114A99829BC9A2957ECCC1",
+        "State": "1",
+        "PhysicalAddress": "192.168.68.155:502:1",
+        "PhysicalAddressType": "ModbusTCP",
+        "TariffId": "-1",
+        "ContractedOptionId": "-1",
+        "LocalId": "158",
+        "DeviceTypeTypeCode": "nan",
+        "Domain": "STORAGE"
     },
     "features": {
-        "Id": {
-            "properties": {
-                "value": 7601,
-                "unit": "Int"
-            }
-        },
-        "BatteryVoltage": {
-            "properties": {
-                "value": "",
-                "unit": "V"
-            }
-        },
         "BatteryCurrent": {
             "properties": {
-                "value": "",
+                "value": 4.3,
                 "unit": "A"
             }
         },
-        "BatteryStateOfCharge": {
+        "BatterySoC": {
             "properties": {
-                "value": "",
+                "value": 88,
                 "unit": "%"
             }
         },
         "BatteryStatus": {
             "properties": {
-                "value": "",
-                "unit": ""
+                "value": 1793,
+                "unit": "mA"
             }
         },
-        "BatteryMaxChargeCurrent": {
+        "BatteryChargeCurrentMax": {
             "properties": {
-                "value": "",
+                "value": 100,
                 "unit": "A"
             }
         },
-        "BatteryMaxDischargeCurrent": {
+        "BatteryDischargeCurrentMax": {
             "properties": {
-                "value": "",
+                "value": 100,
                 "unit": "A"
             }
         },
-        "BatterySOH": {
+        "BatterySoH": {
             "properties": {
-                "value": "",
+                "value": 98,
                 "unit": "%"
             }
         },
-        "BatteryChargeEnergy": {
+        "BatteryChargingEnergy": {
             "properties": {
-                "value": "",
+                "value": 0,
                 "unit": "Wh"
             }
         }
