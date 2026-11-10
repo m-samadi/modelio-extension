@@ -78,7 +78,7 @@ def export(policy_id):
                 break
 
         attribute = []
-        for j in range(14):
+        for j in range(7):
             value = str(root[index][j][0].attrib)
 
             split1 = value.split("'value': '")
@@ -89,17 +89,10 @@ def export(policy_id):
         device_json["attributes"].update({"Id":f"{attribute[0]}"})
         device_json["attributes"].update({"Serial":f"{attribute[1]}"})
         device_json["attributes"].update({"Name":f"{attribute[2]}"})
-        device_json["attributes"].update({"DeviceTypeId":f"{attribute[3]}"})
-        device_json["attributes"].update({"UnitId":f"{attribute[4]}"})
-        device_json["attributes"].update({"Address":f"{attribute[5]}"})
-        device_json["attributes"].update({"State":f"{attribute[6]}"})
-        device_json["attributes"].update({"PhysicalAddress":f"{attribute[7]}"})
-        device_json["attributes"].update({"PhysicalAddressType":f"{attribute[8]}"})
-        device_json["attributes"].update({"TariffId":f"{attribute[9]}"})
-        device_json["attributes"].update({"ContractedOptionId":f"{attribute[10]}"})
-        device_json["attributes"].update({"LocalId":f"{attribute[11]}"})
-        device_json["attributes"].update({"DeviceTypeTypeCode":f"{attribute[12]}"})
-        device_json["attributes"].update({"Domain":f"{attribute[13]}"})
+        device_json["attributes"].update({"PhysicalAddress":f"{attribute[3]}"})
+        device_json["attributes"].update({"PhysicalAddressType":f"{attribute[4]}"})
+        device_json["attributes"].update({"DeviceTypeTypeCode":f"{attribute[5]}"})
+        device_json["attributes"].update({"Domain":f"{attribute[6]}"})
 
         ## Set the features
         for j in range(len(tag[i])):
